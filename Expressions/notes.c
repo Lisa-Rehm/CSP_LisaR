@@ -22,10 +22,11 @@ int main(void){
     //printf("Give me a percent as a decimal: \n");
     //scanf("%f", &percent);
     //printf("Your percent is %f\n", percent);
+    mul = 7*4; // reset variable, if you want to make the change before it's printed put it before, it has to be in the main
     printf("%d\n", add);
     printf("%d\n", mul);
     printf("%d\n", sub);
-    printf("%f\n", div);
+    printf("%.2f\n", div); //put the number of decimal places you want shown between % and f
     printf("%d\n", mod);
     printf("%d\n", ex);
     return 0;

@@ -29,3 +29,10 @@ y = 9
 y %= 2
 
 print(y)
+
+pi = 3.1415926535
+print(pi)
+
+print(round(pi, 4)) #rounds the number to a specified number of digits
+
+print(f"{pi:.6f}") #Curly brackets tell the computer that the stuff in quotation marks is code
