@@ -1,4 +1,4 @@
-//Lisa Rehm, Template
+//Lisa Rehm, Expressions practice C
 #include <stdio.h>
 #include <math.h>
 
