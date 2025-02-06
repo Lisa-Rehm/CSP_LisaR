@@ -1,4 +1,4 @@
-//Lisa Rehm, Fincancial Calculator
+//Lisa Rehm, Fincancial Calculator C
 #include <stdio.h>
 
 int main(void){
