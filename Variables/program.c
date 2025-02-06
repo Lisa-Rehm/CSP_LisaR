@@ -1,3 +1,4 @@
+// Lisa Rehm, Variables program C
 #include <stdio.h>
 
 char user_name[10];

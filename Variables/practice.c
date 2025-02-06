@@ -1,3 +1,4 @@
+//Lisa Rehm, Variables Practice C
 #include <stdio.h>
 
 char name[] = "Lisa";
