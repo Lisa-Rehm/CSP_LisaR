@@ -6,6 +6,7 @@
 // Strings (words) char when we set the variable and %s when we print, %c gives us the first character
 // We set expressions as variables
 // have division as float because you can get a decimal
+
 int mynum;
 float percent;
 int add = 4+6;
@@ -16,12 +17,12 @@ int mod = 6%4;
 int ex = pow(5, 2);
 
 int main(void){
-    //printf("Type a number: \n");
-    //scanf("%d", &mynum);
-    //printf("You inputed %d\n", mynum);
-    //printf("Give me a percent as a decimal: \n");
-    //scanf("%f", &percent);
-    //printf("Your percent is %f\n", percent);
+    printf("Type a number: \n");
+    scanf("%d", &mynum);
+    printf("You inputed %d\n", mynum);
+    printf("Give me a percent as a decimal: \n");
+    scanf("%f", &percent);
+    printf("Your percent is %f\n", percent);
     mul = 7*4; // reset variable, if you want to make the change before it's printed put it before, it has to be in the main
     printf("%d\n", add);
     printf("%d\n", mul);
