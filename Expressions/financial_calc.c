@@ -7,6 +7,12 @@ float utilities;
 float groceries;
 float transportation;
 float savings;
+float spending;
+float per_rent;
+float per_utilities;
+float per_groceries;
+float per_transportation;
+float per_spending;
 
 
 int main(void){
@@ -22,49 +28,19 @@ int main(void){
     printf("How much do you spend on transportation each month?\n");
     scanf("%f", &transportation);
     savings = income * 0.1;
+    spending = income - (rent + utilities + groceries + transportation + savings);
+    per_rent = (rent / income) * 100;
+    per_utilities = (utilities / income) * 100;
+    per_groceries = (groceries / income) * 100;
+    per_transportation = (transportation / income) * 100;
+    per_spending = (spending / income) * 100;
+    printf("You spend %f percent on rent.\n", per_rent);
+    printf("You spend %f percent on utilities.\n", per_utilities);
+    printf("You spend %f percent on groceries.\n", per_groceries);
+    printf("You spend %f percent on transportation.\n", per_transportation);
+    printf("You have $%f dollars left to spend.\n", per_spending);
     printf("%f\n", savings);
     return 0;
 }
 
-
-
-
-
-
-// Calculate savings as 10% of income (variable) (tell user it is 10%)
-
-
-// Calculate spending money income - (rent+utilities+groceries+transportation+savings) (variable)
-
-
-// Calculate percent of rent (rent/income) (variabe)
-
-
-// Calculate percent of utilities (utilities/income) (variabe)
-
-
-// Calculate percent of groceries (groceries/income) (variabe)
-
-
-// Calculate percent of transportation (transportation/income) (variabe)
-
-
-// Calculate percent of spending money (spending/total) (variable)
-
-
-// tell user rent spending amount and percent ("You spend $xx.xx on rent and that is xx% of your income")
-
-
-// tell user utilities spending amount and percent ("You spend $xx.xx on utilities and that is xx% of your income")
-
-
-// tell user groceries spending amount and percent ("You spend $xx.xx on groceries and that is xx% of your income")
-
-
-// tell user transportation spending amount and percent ("You spend $xx.xx on transportation and that is xx% of your income")
-
-
-// tell user spending amount and percent ("You spend $xx.xx on spending and that is xx% of your income")
-
-
-// tell user savings spending amount and percent ("You spend $xx.xx on savings and that is 10% of your income")
+// run and see if there is a way to have % in final print statements
