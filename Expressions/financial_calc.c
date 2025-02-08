@@ -34,13 +34,11 @@ int main(void){
     per_groceries = (groceries / income) * 100;
     per_transportation = (transportation / income) * 100;
     per_spending = (spending / income) * 100;
-    printf("You spend %f percent on rent.\n", per_rent);
-    printf("You spend %f percent on utilities.\n", per_utilities);
-    printf("You spend %f percent on groceries.\n", per_groceries);
-    printf("You spend %f percent on transportation.\n", per_transportation);
-    printf("You have $%f dollars left to spend.\n", per_spending);
-    printf("%f\n", savings);
+    printf("You spend %.2f%% of your income on rent.\n", per_rent);
+    printf("You spend %.2f%% of your income on utilities.\n", per_utilities);
+    printf("You spend %.2f%% of your income on groceries.\n", per_groceries);
+    printf("You spend %.2f%% of your inome on transportation.\n", per_transportation);
+    printf("You have $%.2f dollars left to spend, which is %.2f%% of your income.\n", spending, per_spending);
+    printf("We are going to put $%.2f in your savings.\n", savings);
     return 0;
 }
-
-// run and see if there is a way to have % in final print statements

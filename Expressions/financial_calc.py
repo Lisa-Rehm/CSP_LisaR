@@ -18,4 +18,4 @@ print(f"You spend ${utilities} on utilites, which is {per_utilities:.2f}% of you
 print(f"You spend ${groceries} on groceries, which is {per_groceries:.2f}% of your income.\n")
 print(f"You spend ${transportation} on transportation, which is {per_transportation:.2f}% of your income.\n")
 print(f"You have ${spending} left to spend, which is {per_spending:.2f}% of your income.\n")
-print(f"We are going to put {savings:.2f} in your savings.\n")
+print(f"We are going to put ${savings:.2f} in your savings.\n")
