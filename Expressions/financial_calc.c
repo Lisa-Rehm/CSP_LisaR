@@ -42,3 +42,5 @@ int main(void){
     printf("We are going to put $%.2f in your savings.\n", savings);
     return 0;
 }
+
+// show both input and percentage on final print statements
