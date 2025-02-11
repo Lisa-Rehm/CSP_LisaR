@@ -24,6 +24,16 @@
 # this doesn't work because it puts the 1 right after the input, it is because of the parentheses around the 1
 # input = 5, output = 51, this is concatenation. when you add strings it put them next to each other. The fix is to convernt them to integers.
 
-sentence = "The quick brown fox jumps over the lazy dog."
+# sentence = "The quick brown fox jumps over the lazy dog."
 
-print(sentence.find("fox"))
+# print(sentence.find("fox")) or if you want the whole word:
+
+# word = sentence.find("fox)")
+# print(sentence(word:word+3)) length of word
+# print(sentence(4,9))
+# print(len(sentence))
+name = "Lisa"
+percent = 89
+print("Welcome to my program" +name)
+print(f"Welcome to my program {name}!")
+print(f"Welcome to my program {percent:.1f}!")
