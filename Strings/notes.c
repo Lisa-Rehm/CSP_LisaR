@@ -17,11 +17,13 @@ int main(void){
     char one[] = "Hello ";
     char two[] = "World!";
     char three[] = "This is my program. ";
-    two[5] = '?';
-    //printf("%s\n", one);
-    //strcat(one, two);
-    //printf("%s\n", one);
+    //two[5] = '?';
+    printf("%s\n", one);
+    strcat(one, two);
+    printf("%s\n", one);
     //strcat(three, one); //when cat, make sure to not run out of characters on the variable
     //printf("%s", three);
+    strcat(one, three);
+    printf("%s", one);
     return 0;
 }
