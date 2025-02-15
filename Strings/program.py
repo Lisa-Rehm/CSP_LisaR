@@ -4,13 +4,13 @@ print("Welcome! This is a MadLib, have fun!\n")
 
 num_one = input("Please give me a number (no more than three digits).\n").strip()
 
-dinosaur = input("Please give me a type of dinosaur (one word please).\n").strip().capitalize()
+dinosaur = input("Please give me a type of dinosaur.\n").strip().capitalize()
 
-name = input("Please give me a name (one word please).\n").strip().capitalize()
+name = input("Please give me a name.\n").strip().capitalize()
 
 num_two = input("Please give me another number (no more than two digits).\n").strip()
 
-gerund = input("Please give me a sport that ends in -ing (one word please).\n").strip().lower()
+gerund = input("Please give me a sport that ends in -ing.\n").strip().lower()
 
 print("Here is your story:")
 
