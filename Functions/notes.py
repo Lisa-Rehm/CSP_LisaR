@@ -27,13 +27,13 @@ add(7,21)
 add(int(input("Give me a number:\n")),20)
 
 
-#def add(int(input("Give me another number\n"),number): #parameters go in the () seperated by ,'s
-#
-#    print(numOne+numTwo)
-#
-#add(2, 4) #arguments are given when the function is called and must match the number of parameters
-#add(7,21)
-#add(int(input("Give me a number:\n")),20)
+def add(int(input("Give me another number\n"),number): #parameters go in the () seperated by ,'s
+
+    print(numOne+numTwo)
+
+add(2, 4) #arguments are given when the function is called and must match the number of parameters
+add(7,21)
+add(int(input("Give me a number:\n")),20)
 
 
 def user(word):

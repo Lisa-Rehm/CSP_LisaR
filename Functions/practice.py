@@ -1,11 +1,9 @@
 # Lisa Rehm, Update Hello World Python
 
-def user(word):
-    return input(f"Tell me the {word} name:\n")
-first = user("first")
-second = user("second")
-third = user("third")
+def thing(name):
+    
+    name = input("What is your name?")
 
-print(f"The names you chose were {first}, {second}, and {third}.")
+    print(f"Hello {name}!\n")
 
-# Finish as input or throw five names at them
+print(thing)
