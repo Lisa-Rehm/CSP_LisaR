@@ -1,9 +1,14 @@
 # Lisa Rehm, Update Hello World Python
 
-def thing(name):
-    
-    name = input("What is your name?")
+print("Welcome to my program! Please put in five names:")
 
+def greet():
+    name = input("What is your name?\n").capitalize().strip()
     print(f"Hello {name}!\n")
+    
 
-print(thing)
+greet()
+greet()
+greet()
+greet()
+greet()
