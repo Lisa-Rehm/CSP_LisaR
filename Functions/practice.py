@@ -1,14 +1,12 @@
 # Lisa Rehm, Update Hello World Python
 
-print("Welcome to my program! Please put in five names:")
+print("Welcome to my program! Introducing the first five planets in our solar system:")
 
-def greet():
-    name = input("What is your name?\n").capitalize().strip()
+def greet(name):
     print(f"Hello {name}!\n")
-    
 
-greet()
-greet()
-greet()
-greet()
-greet()
+greet("Mercury")
+greet("Venus")
+greet("Earth")
+greet("Mars")
+greet("Jupiter")
