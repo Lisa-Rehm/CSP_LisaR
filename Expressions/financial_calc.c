@@ -43,4 +43,3 @@ int main(void){
     return 0;
 }
 
-// show both input and percentage on final print statements
