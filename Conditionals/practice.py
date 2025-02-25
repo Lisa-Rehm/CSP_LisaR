@@ -8,6 +8,9 @@ if age >= 5:
         print("You are old enough to get a learners permit!")
         if age >= 16:
             print("You are old enough to drive!")
-            if age >= 
-    else:
+            if age >= 18:
+                print("You are old enough to vote!")
 else:
+    print("You are not old enough to do anything. Sorry.")
+
+# Make it so that only one statement prints
