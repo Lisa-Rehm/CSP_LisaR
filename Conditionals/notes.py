@@ -29,10 +29,28 @@
     ##top condition should be the least likely
 
 
-name = "Katie"
+#name = "Katie"
 
-if "a" in name or "e" in name or "i" in name or "o" in name or "u" in name:
-    print("Your name has a vowel!")
+#if "a" in name or "e" in name or "i" in name or "o" in name or "u" in name:
+#    print("Your name has a vowel!")
+#else:
+#    print("Your name doesn't have a vowel.")
+
+
+# This is called nesting conditionals:
+num = 7
+
+if num > 5 and num < 10:
+    if num == 7:
+        print("That is an unlucky number.\n")
+    else:
+        print("That is a large single digit number.\n")
 else:
-    print("Your name doesn't have a vowel.")
-
+    if num == 4:
+        print(f"{num} is the best number!")
+    else:
+        if num >= 10:
+            print(f"{num} is not a single digit number.")
+        else:
+            print(f"{num} is a small number")
+            
