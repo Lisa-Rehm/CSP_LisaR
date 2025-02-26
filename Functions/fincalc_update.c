@@ -1,42 +1,52 @@
 //Lisa Rehm, Financial Calculator Update in C
 #include <stdio.h>
 
-float income;
-float rent;
-float utilities;
-float groceries;
-float transportation;
-float savings;
-float spending;
-float per_rent;
-float per_utilities;
-float per_groceries;
-float per_transportation;
-float per_spending;
-
-// category function
-char ask(category){
-    category = (input("How much do you spend on %s each month?"));
+void ask(char* category){
+    float input;
+    printf("How much do you spend on %s each month?\n", category);
+    scanf("%f", &input);
 }
+
+void tell_calc(float income, float amount, float type){
+    float pertype = (amount/income)*100;
+    printf("You spend %f on %s every month, which is %f of your income.\n", amount, type, pertype)
+}
+
+int main(void){
+    float income;
+    printf("Welcome! This is a budget calculator!\n");
+    printf("What is your monthly income?\n");
+    scanf("%f", &income);
+    ask("rent or mortgage");
+    ask("utilities");
+    ask("groceries");
+    ask("transportation");
+
+    tell_calc(income, rent, "rent or mortgage")
+    return 0;
+}
+
+//float rent;
+//float utilities;
+//float groceries;
+//float transportation;
+
+// float savings;
+// float spending;
+// float per_rent;
+// float per_utilities;
+// float per_groceries;
+// float per_transportation;
+// float per_spending;
 
 //calculation function + this is how much you spend
 
 // calculate spending and savings in or out of the main?
 
-int main(void){
-    printf("Welcome! This is a budget calculator!\n");
-    printf("What is your monthly income?\n");
-    // what is your income
-    // call function for how much they spend
-    ask("rent or mortgage");
-    ask("utilities");
-    //etc.
+ //etc.
     // call function for after calculations
     // spending amount
     // savings
-    return 0;
-}
-
 
 
 //Lisa Rehm, Fincancial Calculator C
