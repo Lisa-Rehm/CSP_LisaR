@@ -1,19 +1,23 @@
 //Lisa Rehm, Financial Calculator Update in C
 #include <stdio.h>
 
-void ask(char* category){
+float ask(char* category){
     float input;
     printf("How much do you spend on %s each month?\n", category);
     scanf("%f", &input);
 }
 
-void tell_calc(float income, float amount, float type){
+void tell_calc(float income, float amount, char* type){
     float pertype = (amount/income)*100;
-    printf("You spend %f on %s every month, which is %f of your income.\n", amount, type, pertype)
+    printf("You spend %f on %s every month, which is %f of your income.\n", amount, type, pertype);
 }
 
 int main(void){
     float income;
+    float rent;
+    float utilities;
+    float groceries;
+    float transportation;
     printf("Welcome! This is a budget calculator!\n");
     printf("What is your monthly income?\n");
     scanf("%f", &income);
@@ -22,7 +26,7 @@ int main(void){
     ask("groceries");
     ask("transportation");
 
-    tell_calc(income, rent, "rent or mortgage")
+    tell_calc(income, rent, "rent or mortgage");
     return 0;
 }
 

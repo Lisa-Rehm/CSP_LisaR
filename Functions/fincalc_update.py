@@ -9,7 +9,6 @@ def info(income, amount, type):
 
 print("Hello! This is a budget calculator!")
 income = int(input("What is your monthly income?\n"))
-
 rent = ask("rent or mortgage")
 utilities = ask("utilities")
 groceries = ask("groceries")
