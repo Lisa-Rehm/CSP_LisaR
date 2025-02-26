@@ -8,7 +8,7 @@ void greet(char name[]){
 }
 
 int main(void){
-    printf("Welcome to my program, please welcome these five individuals:\n");
+    printf("Welcome to my program! Introducing 5 chickens from my flock:\n");
     greet("Sally");
     greet("Meri");
     greet("Ruby");
