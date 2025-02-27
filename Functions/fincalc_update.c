@@ -35,7 +35,7 @@ int main(void){
     tell_calc(income, transportation, "transportation");
     savings = income * 0.1;
     spending = income - (rent + utilities + groceries + transportation + savings);
-    // per_spending calc
+    per_spending = (spending/income)*100;
     printf("You have $%.2f dollars left to spend, which is %.2f%% of your income.\n", spending,per_spending);
     printf("We are going to put $%.2f in your savings.\n", savings);
     return 0;
