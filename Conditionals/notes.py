@@ -11,19 +11,19 @@
 
 
 
-#num = int(input("How many would you like?.\n"))
+num = int(input("How many would you like?.\n"))
 ##this could also be num = # and you just change the number in the code
 
-#if num == 0:
-    #print("You don't want any... why?")
-#elif num == 1:
-    #print("You have asked for an item")
-#elif num <= 3:
-    #print("You have asked for a couple of the item")
-#elif num <= 5:
-    #print("You have asked for a few of the item, or you are in the south then you asked for a couple")
-#else:
-    #print("You have asked for some of the item")
+if num == 0:
+    print("You don't want any... why?")
+elif num == 1:
+    print("You have asked for an item")
+elif num <= 3:
+    print("You have asked for a couple of the item")
+elif num <= 5:
+    print("You have asked for a few of the item, or you are in the south then you asked for a couple")
+else:
+    print("You have asked for some of the item")
 
     ##conditionals start at the top and work their way down, they will only take the first condition that is correct, it will ignore everything else.
     ##top condition should be the least likely
