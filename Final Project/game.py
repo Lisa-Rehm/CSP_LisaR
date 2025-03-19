@@ -33,7 +33,6 @@ print(f" {seven} | {eight} | {nine} ")
 
 
 
-# create a list of our variables and have the computer draw a random one that doesn't include one already picked
-
-# For computers turn
-#if random number 
+# draw a random number that create a list of our variables and have the computer draw a random one that doesn't include one already picked 
+# For computers turner
+# if random number = variable = X or O variable
