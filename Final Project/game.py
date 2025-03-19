@@ -36,3 +36,4 @@ print(f" {seven} | {eight} | {nine} ")
 # draw a random number that create a list of our variables and have the computer draw a random one that doesn't include one already picked 
 # For computers turner
 # if random number = variable = X or O variable
+# rand = random.randint(1,20)
