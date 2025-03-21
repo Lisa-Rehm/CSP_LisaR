@@ -4,13 +4,9 @@
 
 # Lisa: Functions that ask for user input and another that gets tha random number
 
-# Eve variable (setting the numbers on the board to usable variables) and conditional that checks if someone won
+# Eve: variable (setting the numbers on the board to usable variables) and conditional that checks if someone won
 
-#   1 | 2 | 3
-#  -----------
-#   4 | 5 | 6
-#  -----------
-#   7 | 8 | 9
+# Blaine:
 
 one = "1"
 two = "2"
