@@ -1,15 +1,6 @@
-# Lisa Rehm and Eve Richardson, Test
+# Lisa Rehm and Eve Richardson, The Final Final
 
-# one = "1"
-# print(one)
-# 
-# one = "X"
-# print(one)
-
-# blah = input("num 1-3:")
-
-# if blah == 1:
-
+import random
 
 (one, two, three, four, five, six, seven, eight, nine) = (1, 2, 3, 4, 5, 6, 7, 8, 9)
 
@@ -70,9 +61,9 @@ def user_turn(spaces):
     return
 
 def winner():
-    if one==two==three=="O" or four==five==six=="O" or seven==eight==nine=="O" or one==four==seven=="O" or two==five==eight=="O" or three==six==nine=="O" or one==five==nine=="O" or three==five==seven=="O":
+    if spaces[0]==spaces[1]==spaces[2]=="O" or spaces[3]==spaces[4]==spaces[5]=="O" or spaces[6]==spaces[7]==spaces[8]=="O" or spaces[0]==spaces[3]==spaces[6]=="O" or spaces[1]==spaces[4]==spaces[7]=="O" or spaces[2]==spaces[5]==spaces[8]=="O" or spaces[0]==spaces[4]==spaces[8]=="O" or spaces[2]==spaces[4]==spaces[6]=="O":
         print("Blue wins!")
-    elif one==two==three=="X" or four==five==six=="X" or seven==eight==nine=="X" or one==four==seven=="X" or two==five==eight=="X" or three==six==nine=="X" or one==five==nine=="X" or three==five==seven=="X":
+    elif spaces[0]==spaces[1]==spaces[2]=="X" or spaces[3]==spaces[4]==spaces[5]=="X" or spaces[6]==spaces[7]==spaces[8]=="X" or spaces[0]==spaces[3]==spaces[6]=="X" or spaces[1]==spaces[4]==spaces[7]=="X" or spaces[2]==spaces[5]==spaces[8]=="X" or spaces[0]==spaces[4]==spaces[8]=="X" or spaces[2]==spaces[4]==spaces[6]=="X":
         name = input("What is your name?\n")
         print(f"Congratulations {name}, you won!")
     else:
@@ -80,12 +71,40 @@ def winner():
         board()
         user_turn(spaces)
 
+rand = random.randint(1,9)
 
+def blue_turn(rand):
+    if rand == 1 and spaces[0] == 1:
+        spaces[0] = "O"
+        board()
+    elif rand == 2 and spaces[1] == 2:
+        spaces[1] = "O"
+        board()
+    elif rand == 3 and spaces[2] == 3:
+        spaces[2] = "O"
+        board()
+    elif rand == 4 and spaces[3] == 4:
+        spaces[3] = "O"
+        board()
+    elif rand == 5 and spaces[4] == 5:
+        spaces[4] = "O"
+        board()
+    elif rand == 6 and spaces[5] == 6:
+        spaces[5] = "O"
+        board()
+    elif rand == 7 and spaces[6] == 7:
+        spaces[6] = "O"
+        board()
+    elif rand == 8 and spaces[7] == 8:
+        spaces[7] = "O"
+        board()
+    elif rand == 9 and spaces[8] == 9:
+        spaces[8] = "O"
+        board()
+    else:
+        print("This will be something useful.")
+    return
+
+blue_turn(rand)
 
 user_turn(spaces)
-
-
-## blue_turn
-
-#winner()
-#
