@@ -1,4 +1,4 @@
-# Lisa Rehm, Eve Richardson, and Blaine Buckler; The Final Final
+# Lisa Rehm, Eve Richardson, and Blaine Buckler; Tic Tac Toe Prodject Python
 winVar = 0 #Made for my loop to work, Blaine
 import random
 
