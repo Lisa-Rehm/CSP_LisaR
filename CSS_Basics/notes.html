@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>CSS Basics Notes</title>
+        <!--embeded style sheet-->
+        <style>
+            li{
+                color: rgb(117, 39, 10);
+            }
+            #even{
+                color: blue;
+                font-size: 40px;
+            }
+            .intro{
+                color: #2d5d00;
+                text-align: center;
+            }
+            #img_src{
+                font-size:7px;
+                color: rgba(128, 128, 128, 0.582);
+            }
+            img{
+                width: 50%;
+            }
+            h1{
+                font-size: 35px;
+                text-align: center
+                /*text-decoration: underline;*/
+                /*text-emphasis: bold;*/
+            }
+            *{
+                background-color:
+                black;
+                font-family:'Courier New', Courier, monospace
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <h1>HTML Advanced Notes</h1>
+            <h2>Lists and images</h2>
+            <p
+            class="intro">Nesting is putting an HTML tag inside another one.<br>
+                Some need to be nested: <br>
+                Some cannot be nested: <h#> need to be in the body but cannot be in anything else
+                </p>
+                <ol>
+                    <li>li tags must be nested, ol creates a numbered list</li>
+                    <li>What appears on the webpage is nested in the body tag</li></ll>
+                </ol>
+                <ul>
+                    <li>ul tags create a bulleted list</li>
+                    <li
+                    id="even">Twix</li>
+                    <li>Kit Kat</li>
+                    <li>etc.</li>
+                </ul>
+                <dl>
+                    <dt>Aang</dt>
+                    <img src="images\aang_image.jpg" alt="Aang trying to barter">
+                    <dd>This doesn't work as well without live 5</dd>
+                    <dt>Aang</dt>
+                    <img src="https://miro.medium.com/v2/resize:fit:1200/0*3xTjr7rYOjGYjKqi.jpg" alt="Aang trying to barter">
+                    <small><small><small><dd>Image from: https://bjornjohann.medium.com/the-wondrous-pacifism-of-avatar-aang-362ef3d048c4</dd></small></small></small><br>
+                    <dd>This url is copied from the image in a diiferent tab not from the search</dd>
+                    <dt>Description list (dt) - description tag/term (dt)</dt>
+                    <dd>Actual description of the things</dd>
+                    <dt>Another thing</dt>
+                    <dd>Descritpion of another things</dd>
+                </dl>
+            </div>
+            <div>
+                <h2>Links</h2>
+                <p>An attribute is information placed in the opening tag that gives more information to the computer about that tag specifically</p>
+                <a href="https://www.w3schools.com/html/html_attributes.asp">Link to more information.</a>
+                <ul>
+                    <li>This link takes over the webpage instead of going in a new tab.</li></ul>
+                    <a href="https://www.w3schools.com/html/html_links.asp"target="_blank">Links.</a>
+                <img src="https://miro.medium.com/v2/resize:fit:1200/0*3xTjr7rYOjGYjKqi.jpg" alt="Aang trying to barter">
+                <p
+                id="img_src">Image from: https://bjornjohann.medium.com/the-wondrous-pacifism-of-avatar-aang-362ef3d048c4</p><br>
+            </div>
+    </body>
+</html>
