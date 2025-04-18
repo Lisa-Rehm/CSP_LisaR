@@ -1,0 +1,43 @@
+*{
+    background-color: blanchedalmond;
+    font-family: "Lavishly Yours", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p{
+    background-color: rgba(221, 37, 221, 0.623);
+    border-radius: 5px;
+    padding: 3px;
+    margin: 2px;
+}
+
+#content{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+#one{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+img{
+    height: 300px;
+}
+
+#img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+/*Generic font families:
+1.  Serif
+2. Sans-serif
+3. Monospace
+4. Cursive
+5. Fantasy
+
+padding pushes stuff to the middle*/
