@@ -1,5 +1,11 @@
 function push(){
-    document.getElementById("brodmann").style.display = "block"
+    if(document.getElementById("brodmann").style.display != "block"){
+        document.getElementById("brodmann").style.display = "block"
+    document.getElementById("btn").innerHTML = "Show Less"
+    }else{
+        document.getElementById("brodmann").style.display = "none"
+    document.getElementById("btn").innerHTML = "Click here if you want to know more about Brodmann Areas!"
+    }
 }
 let images = ["https://www.simplypsychology.org/wp-content/uploads/brodmanns-areas-1536x864.jpeg", "https://www.simplypsychology.org/wp-content/uploads/Brodmann-areas-map-1536x1194.jpeg"]
 
