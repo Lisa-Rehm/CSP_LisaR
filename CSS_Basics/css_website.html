@@ -9,6 +9,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+        <script src="website.js"></script>
         <style>
             *{
                 background-color: rgb(15, 32, 80);
@@ -49,6 +50,9 @@
                 display: grid;
                 grid-template-columns: 1fr 3fr;
             }
+            #brodmann{
+                display:none;
+            }
         </style>
     </head>
     <body>
@@ -66,10 +70,12 @@
         <small><small><small><dd>Image from: https://www.hopkinsmedicine.org/health/conditions-and-diseases/anatomy-of-the-brain</dd>
         <a href="https://www.hopkinsmedicine.org/health/conditions-and-diseases/anatomy-of-the-brain"target="_blank">Here is a website with more information.</a>
         </div>
+        <button id="btn" onclick="push()">Click here if you want to know about Brodmann Areas!</button>
+        <div id="brodmann">
         <h2 class="head">Brodmann Areas Explained:</h2>
         <p>The Brodmann Areas are a system of naming and numbering small areas of the brain. It allows us to explain and see more of the individual and specific functions in the brain.</p>
         <h4 class="head">List of Some Brodmann Areas:</h4>
-        <img src="https://www.simplypsychology.org/wp-content/uploads/brodmanns-areas-1536x864.jpeg" alt="Brodmann Areas">
+        <img id="img" onmouseover="change()" src="https://www.simplypsychology.org/wp-content/uploads/brodmanns-areas-1536x864.jpeg">
         <dd>Image from: https://www.simplypsychology.org/brodmann-areas.html</dd><br>
         <dl>
             <dt><b>Areas 1, 2, and 3:</b></dt>
@@ -90,5 +96,6 @@
             <dd>These areas make up Broca's area which is located within the frontal lobes. It is an essential region for the production of language. It is able to put together elements of language, selct information from a variety of sources, and help produce information about the motor movements required for spoken and written language. It helps construct and process complex sentences and speech patterns.</dd>
         </dl>
         <a href="https://www.simplypsychology.org/brodmann-areas.html"target="_blank">Information on Brodmann areas comes from this website</a>
+        </div>
     </body>
 </html>
