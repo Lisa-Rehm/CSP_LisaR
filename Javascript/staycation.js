@@ -2,7 +2,7 @@ let images = ["https://lh3.googleusercontent.com/p/AF1QipNk54IMo6U4YNXEnM61MrnIB
 
 count = 0
 function change(){
-    document.getElementById("one").style.height = "150px"
+    document.getElementById("one").style.width = "625px"
     document.getElementById("one").src = images[count]
     if(count === 5){
         count = 0
@@ -15,7 +15,7 @@ let reasons = ["https://i.ytimg.com/vi/3_0iOHDBIkg/maxresdefault.jpg", "https://
 
 coun = 0
 function dif(){
-    document.getElementById("two").style.height = "150px"
+    document.getElementById("two").style.width = "625px"
     document.getElementById("two").src = reasons[coun]
     if(coun === 3){
         coun = 0
@@ -27,7 +27,7 @@ function dif(){
 let native = ["https://res.cloudinary.com/simpleview/image/upload/v1544569460/clients/scottsdale/Hopi_Dancers_on_Feast_Days_499de77f-906e-4f95-9d05-cb1b90615900.jpg", "https://ndcfs.org/wp-content/uploads/2024/09/navajo-nation-generations960.jpg", "https://www.uvu.edu/news/2023/11/images/2023_11_02_native_american_heritage_month_1.jpg", "https://i0.wp.com/newmexiconomad.com/wp-content/uploads/2023/10/Gallup-Inter-Tribal-Ceremonial-PowWow-Zuni-Olla-dancers.jpg?ssl=1", "https://www.naturalarches.org/blog/wp-content/uploads/2017/09/rainbow-bridge-national-monument-do-not-approach-sign.jpg"]
 num = 0
 function diff(){
-    document.getElementById("three").style.width = "300px"
+    document.getElementById("three").style.width = "700px"
     document.getElementById("three").src = native[num]
     if(num === 4){
         num = 0

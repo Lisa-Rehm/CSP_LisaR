@@ -9,8 +9,8 @@
         <link href="https://fonts.googleapis.com/css2?family=Sigmar&display=swap" rel="stylesheet">
         <style>
             body{
-                background-color: rgba(201, 255, 252, 0.568);
-                color: rgb(90, 0, 0);
+                background-color: rgba(151, 151, 151, 0.486);
+                color: rgb(116, 17, 17);
                 font-family: "Sigmar", sans-serif;
                 font-weight: 400;
                 font-style: normal;
@@ -19,40 +19,71 @@
                 text-align: center;
             }
             #title{
-
+                font-weight: 600;
+                color: rgb(90, 0, 0);
+            }
+            #one{
+                width: 625px;
+            }
+            #two{
+                width: 625px;
             }
             img{
-                width: 250px;
+                width: 700px;
+            }
+            #top{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                padding: 5px;
+                background-color: rgba(201, 255, 252, 0.568);
+                height: 500px;
+            }
+            #bottom{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                background-color: rgba(201, 255, 252, 0.568);
+                height: 500px;
+            }
+            #middle{
+                display: grid;
+                grid-template-rows: 50px;
+            }
+            #link{
+                display: flex;
+                flex-direction: column;
             }
         </style>
     </head>
     <body>
-        <div>
         <h1 id="title">Rainbow Bridge National Monument</h1>
+        <div id="top">
         <img id="one" onmouseover="change()" src="https://lh3.googleusercontent.com/p/AF1QipNk54IMo6U4YNXEnM61MrnIBv0HYMdjDLqVgLTT=s680-w680-h510">
-        <p>Rainbow Bridge National Monument is a sacred land structure to the nearby Native Americans. It was first 'discovered' by white men in 1909 but the Natives have known of it for hundreds or even thousands of years. It was formed over hundreds of years when a horseshoe bend in the river was shortcutted by erosion through a canyon wall. This 'fin' in the canyonwall that it went through became the bridge. (see sixth image on the left). It is possible, though dangerous and tedious, to hike to the bridge, but using a private, rental, or tour boat is typical.</p>
+        <p>Rainbow Bridge National Monument is a sacred land structure to the nearby Native Americans. It was first 'discovered' by white men in 1909 but the Natives have known of it for hundreds or even thousands of years. It was formed when a horseshoe bend in the river was shortcutted by erosion through a canyon wall. This 'fin' in the canyonwall that it went through became the bridge. (see sixth image on the left). You can get to the bridge via private, rental, or tour boat. It is possible to the hike to the bridge but it isn't allowed most of the time (due to heat) and you have to get special permission.</p>
         <img id="two" onmouseover="dif()" src="https://i.ytimg.com/vi/3_0iOHDBIkg/maxresdefault.jpg">
-        <h3 id="title">Reasons to go here:</h3>
         <ol>
-            <li>One of the world's largest natural bridges, almost as tall as the statue of liberty</li>
+            <li>You should visit because it is one of the world's largest natural bridges, almost as tall as the statue of liberty</li>
             <li>It is very stable and safe, the bridge will not collapse on you</li>
             <li>You can get there by tour boat, no hiking required</li>
             <li>There is a dinasour footprint and a petroglyph you can see</li>
         </ol>
     </div>
-    <div>
+    <div id="middle"></div>
+    <div id="bottom">
         <p>Please be respectful when visiting the Rainbow Bridge. It is very sacred to many Native American tribes in the area, including: the Hopi Tribe, Kaibob Paiute Tribe, Navajo Nation, Paiute Indian Tribe of Utah, San Juan Southern Paiute Tribe, Pueblo of the Zuni, and the Ute Mountain Ute Tribe. It is asked that visitors do not walk under or directly up to the Bridge because of this.</p>
         <img id="three" onmouseover="diff()" src="https://res.cloudinary.com/simpleview/image/upload/v1544569460/clients/scottsdale/Hopi_Dancers_on_Feast_Days_499de77f-906e-4f95-9d05-cb1b90615900.jpg">
-        <h3 id="title">If you would like to book a trip to Rainbow Bridge National Monument:</h3>
-        
-        <a href="https://www.lakepowell.com/marinas/boat-tours/rainbow-bridge-tour">Click here!</a>
 
-        <p>Here are links to more information:</p>
-        <a href="https://www.nps.gov/rabr/index.htm#:~:text=Rainbow%20Bridge%20is%20one%20of,who%20visit%20it%20each%20year.">National Park Website</a>
-        <br>
-        <a href="https://www.nps.gov/rabr/faqs.htm#:~:text=When%20Lake%20Powell%20is%20at,Natural%20Wonders%20of%20the%20World%E2%80%9D%3F">Frequently Asked Questions</a>
-        <br>
-        <a href="https://www.nps.gov/rabr/learn/nature/geologicformations.htm#:~:text=Rainbow%20Bridge%20was%20created%20when,%2C%20eventually%2C%20cause%20its%20demise.">Formation of the Bridge</a>
+        <div id="link">
+            <h3 id="title">If you would like to book a trip to Rainbow Bridge National Monument:</h3>
+        
+            <a href="https://www.lakepowell.com/marinas/boat-tours/rainbow-bridge-tour"target="_blank">Click here!</a>
+
+            <h3 id="title">Here are links to more information:</h3>
+            <a href="https://www.nps.gov/rabr/index.htm#:~:text=Rainbow%20Bridge%20is%20one%20of,who%20visit%20it%20each%20year."target="_blank">National Park Website</a>
+            <br>
+            <a href="https://www.nps.gov/rabr/faqs.htm#:~:text=When%20Lake%20Powell%20is%20at,Natural%20Wonders%20of%20the%20World%E2%80%9D%3F"target="_blank">Frequently Asked Questions</a>
+            <br>
+            <a href="https://www.nps.gov/rabr/learn/nature/geologicformations.htm#:~:text=Rainbow%20Bridge%20was%20created%20when,%2C%20eventually%2C%20cause%20its%20demise."target="_blank">Formation of the Bridge</a>
+        </div>
     </div>
     </body>
 </html>
