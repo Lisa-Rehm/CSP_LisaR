@@ -1,10 +1,10 @@
-let images = ["https://lh3.googleusercontent.com/p/AF1QipNk54IMo6U4YNXEnM61MrnIBv0HYMdjDLqVgLTT=s680-w680-h510", "https://npr.brightspotcdn.com/legacy/sites/knau/files/201912/arch1.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3Nr5VCBZIMENzs8WiZPigvecq6FX5NgU8qA&s", "https://images.discerningassets.com/image/upload/c_fit,h_1000,w_1000/c_fit,fl_relative,h_1.0,o_100,w_1.0/v1565830969/Sacred_Land_20x30_izxyli.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVXMVBeKZ5JHTyBPkOQ6k2QZt6CDAjuJ_DqgwBGYjbjkwTLdTY3_1sgxA5SOOVZLj2J0M&usqp=CAU", "https://www.nps.gov/rabr/learn/nature/images/rainbow-animation.jpg?maxwidth=1300&maxheight=1300&autorotate=false&format=webp"]
+let images = ["https://lh3.googleusercontent.com/p/AF1QipNk54IMo6U4YNXEnM61MrnIBv0HYMdjDLqVgLTT=s680-w680-h510", "https://npr.brightspotcdn.com/legacy/sites/knau/files/201912/arch1.jpg", "https://images.discerningassets.com/image/upload/c_fit,h_1000,w_1000/c_fit,fl_relative,h_1.0,o_100,w_1.0/v1565830969/Sacred_Land_20x30_izxyli.jpg", "https://www.nps.gov/rabr/learn/nature/images/rainbow-animation.jpg?maxwidth=1300&maxheight=1300&autorotate=false&format=webp"]
 
 count = 0
 function change(){
     document.getElementById("one").style.width = "625px"
     document.getElementById("one").src = images[count]
-    if(count === 5){
+    if(count === 3){
         count = 0
     }else{
         count += 1
@@ -33,5 +33,15 @@ function diff(){
         num = 0
     }else{
         num += 1
+    }
+}
+
+function push(){
+    if(document.getElementById("bottom").style.display != "grid"){
+        document.getElementById("bottom").style.display = "grid"
+    document.getElementById("btn").innerHTML = "Show Less"
+    }else{
+        document.getElementById("bottom").style.display = "none"
+    document.getElementById("btn").innerHTML = "Click here for more information!"
     }
 }
