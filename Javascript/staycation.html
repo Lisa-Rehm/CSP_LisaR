@@ -17,6 +17,8 @@
             }
             h1{
                 text-align: center;
+                border: 3px outset rgba(201, 255, 252, 0.568);
+                margin: 50px;
             }
             #title{
                 font-weight: 600;
@@ -41,6 +43,7 @@
                 margin: 10px;
                 background-color: rgba(201, 255, 252, 0.568);
                 height: 500px;
+                border: 5px solid white;
             }
             #bottom{
                 display: none;
@@ -49,6 +52,7 @@
                 height: 500px;
                 margin: 10px;
                 padding: 5px;
+                border: 5px solid white;
             }
             #middle{
                 display: grid;
@@ -72,15 +76,19 @@
                 padding: 20px;
                 border: 3px solid rgb(90, 0, 0);
             }
+            #list{
+                padding: 50px;
+                border: 3px solid rgb(90, 0, 0);
+            }
         </style>
     </head>
     <body>
         <h1 id="title">Rainbow Bridge National Monument</h1>
         <div id="top">
         <img id="one" onmouseover="change()" src="https://lh3.googleusercontent.com/p/AF1QipNk54IMo6U4YNXEnM61MrnIBv0HYMdjDLqVgLTT=s680-w680-h510">
-        <p>Rainbow Bridge National Monument is a sacred land structure to the nearby Native Americans. It was first 'discovered' by white men in 1909 but the Natives have known of it for hundreds or even thousands of years. It was formed when a horseshoe bend in the river was shortcutted by erosion through a canyon wall. This 'fin' in the canyonwall that it went through became the bridge. (see fourth image on the left). You can get to the bridge via private, rental, or tour boat. It is possible to the hike to the bridge but it isn't allowed most of the time (due to heat) and you have to get special permission.</p>
+        <p>Rainbow Bridge National Monument is a sacred land structure to the nearby Native Americans. It was first 'discovered' by white men in 1909 but the Natives have known of it for hundreds or even thousands of years. It was formed when a horseshoe bend in the river was shortcutted by erosion through a canyon wall. This 'fin' in the canyon wall that it went through became the bridge. (see fourth image on the left). You can get to the bridge via private, rental, or tour boat. It is possible to the hike to the bridge but it isn't allowed most of the time (due to heat) and you have to get special permission. <br>Rainbow Bridge is a beautiful and mesmerizing wonder. Bridges like these only exist for a brief moment in the history of the Earth, so we are lucky that one like this exists now for us to visit.</p>
         <img id="two" onmouseover="dif()" src="https://i.ytimg.com/vi/3_0iOHDBIkg/maxresdefault.jpg">
-        <ol>
+        <ol id="list">
             <li>You should visit because it is one of the world's largest natural bridges, almost as tall as the statue of liberty</li>
             <li>It is very stable and safe, the bridge will not collapse on you</li>
             <li>You can get there by tour boat, no hiking required</li>
